@@ -1,0 +1,3 @@
+# ESBuild Monorepo boilerplate
+
+This is a modern monorepo boilerplate for authoring library packagescurated in support of web development. It is based in Lerna(and nx), supported by TypeScript, compiled with the TypeScript Compiler(TSC) and then bundled with ESBuild for maximum control and versatility when it comes to generated JavaScript formats. But is primarily for robust CommonJS Module support and the ability to author source code in CJS and output it as ES modules. Clone it, then develop it in whatever way you see fit and publish it to NPM without the bottlenecks of maintaining separate repositories or integrating GIT submodules.
