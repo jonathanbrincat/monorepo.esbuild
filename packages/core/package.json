@@ -18,14 +18,15 @@
     "url": "git+https://github.com/jonathanbrincat/monorepo.esbuild.git"
   },
   "scripts": {
-    "build": "",
-    "test": "node ./__tests__/core.test.js"
+    "build": "esbuild",
+    "test": "npx lerna run build --scope=@brincat/core && jest"
   },
   "bugs": {
     "url": "https://github.com/jonathanbrincat/monorepo.esbuild/issues"
   },
   "devDependencies": {
     "jest": "^29.7.0",
+    "rollup": "^4.12.0",
     "typescript": "^5.3.3"
   }
 }
